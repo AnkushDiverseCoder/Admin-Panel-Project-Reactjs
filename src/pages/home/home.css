@@ -1,0 +1,41 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .homeContainer {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+}
+
+.home .homeContainer .widgets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.2em;
+  gap: 1.2em;
+}
+
+.home .homeContainer .charts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.3em 1.5em;
+  gap: 1.2em;
+}
+
+.home .homeContainer .listContainer {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 1.5em;
+  margin: 1.5em;
+}
+
+.home .homeContainer .listContainer .listTitle {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=home.css.map */

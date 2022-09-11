@@ -1,0 +1,119 @@
+.navbar {
+  height: 4.8em;
+  border-bottom: 0.5px solid #e7e4e4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8em;
+  color: #555;
+  padding-left: 5em;
+}
+
+.navbar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-right: 5em;
+}
+
+.navbar .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.5px solid lightgrey;
+  padding: 3px;
+}
+
+.navbar .search input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.navbar .search input::-webkit-input-placeholder {
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+.navbar .search input:-ms-input-placeholder {
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+.navbar .search input::-ms-input-placeholder {
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+.navbar .search input::placeholder {
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+.navbar .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-left: 1.4em;
+}
+
+.navbar .items .item .icon {
+  font-size: 1.8em;
+}
+
+.navbar .items .item .avatar {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.navbar .items .item .counter {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8em;
+  font-weight: 400;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+/*# sourceMappingURL=navbar.css.map */

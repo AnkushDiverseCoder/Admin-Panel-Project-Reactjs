@@ -1,0 +1,85 @@
+.single {
+    display: flex;
+    width: 100%;
+
+    .singleContainer {
+        flex: 6;
+
+        .top {
+            padding: 1.5em;
+            display: flex;
+            gap: 1.5em;
+
+            .left {
+                flex: 1;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                padding: 1.5em;
+                position: relative;
+
+                .editButton {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 5px;
+                    font-size: 0.8em;
+                    color: #7451f8;
+                    background-color: #7551f831;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0 5px;
+                }
+
+                .item {
+                    display: flex;
+                    gap: 1.5em;
+
+                    .itemImg {
+                        width: 7em;
+                        height: 7em;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .details {
+                        .itemTitle {
+                            margin-bottom: 0.8em;
+                            color: #555;
+                        }
+
+                        .detailItem {
+                            margin-bottom: 0.8em;
+                            font-size: 0.9em;
+
+                            .itemKey {
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: 0.3em;
+                            }
+
+                            .itemKey {
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                flex: 2;
+            }
+        }
+
+        .title {
+            font-size: 1em;
+            color: lightgrey;
+            margin-bottom: 1.4em;
+        }
+
+        .bottom {
+            padding: 1.5em;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            margin: 0.6em 1.5em;
+        }
+    }
+}
